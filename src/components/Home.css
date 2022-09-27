@@ -1,0 +1,134 @@
+input{
+    outline: none;
+    width:100%;
+    border:none;
+    font-size:18px;
+    font-weight: 600;
+}
+.input-div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width:95%;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    align-items:center;  
+   
+}
+.input-div1{
+display: flex;
+width:90%;
+padding: 7px;
+margin-right:3%;
+/* border:1px solid yellow; */
+}
+.sevenDatadiv{
+    border:1px solid transparent;
+    width:100%;
+    display: flex;
+    overflow: auto;
+    /* white-space: nowrap; */
+    margin-top: 10px;
+    padding:5px;
+}
+.DailyForecastDiv{
+    border:1px solid transparent;
+    margin-right: 5px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.DailyForecastDiv >h5 {
+    padding-bottom:0px;
+    margin-bottom:5px;
+    font-size: medium;
+}
+img{
+    margin-top:10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width:50px;
+    height:50px
+}
+.weathercloud{
+    padding:0px;
+    margin:0px;
+    font-size:medium;
+}
+.tempchartdiv{
+   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin:"5px 0 5px 0";
+}
+.temp-div{
+    padding:10px;
+    margin: 5px;
+    background:#f3fbff;
+
+}
+.pressure-div{
+display: flex;
+padding:10px;
+margin:15px 0 15px 0;
+align-items:start;
+text-align: start;
+/* border:1px solid blue */
+}
+.pressure-div >div{
+    width:50%;
+    /* margin:10px 0 10px 0; */
+    margin:0px 10px 0px 10px;
+    padding-left: 10px;
+    background:#f3fbff;
+    /* border:1px solid red; */
+    padding-top:-10px;
+}
+.pressure-div >div >h3,.pressure-div >div >h4{
+    margin:0px;
+    padding:0px;
+}
+.sunrise-div{
+width:94%;
+display: flex;
+padding:10px;
+
+justify-content: space-between;
+align-items:center;
+margin:auto;
+background:#f3fbff;
+padding:10px;
+/* border:1px solid red; */
+}
+.sunrise-div >div{
+    margin:3px;
+    padding:5px;
+    background:#f3fbff;
+/* border:1px solid red; */
+
+}
+.sunrise-div >div >h3,.sunrise-div >div >h4{
+    margin:0px;
+    padding:0px;
+}
+
+.homediv{
+   
+}
+h1{
+    font-size: 32px;
+}
+
+.p1{
+    font-size:18px;
+    font-weight: 500;
+    margin-bottom:0px;
+    /* padding:0; */
+    padding-bottom:0px;
+}
+.p2{
+    font-size:18px;
+    margin-top: 2px;
+    /* padding:0; */
+    padding-top: 2px;
+    font-weight: 400;
+}

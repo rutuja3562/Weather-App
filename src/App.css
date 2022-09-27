@@ -1,0 +1,68 @@
+body{
+padding:0;
+margin:0;
+width:100%;
+}
+.App {
+  width:75%;
+  margin:auto;
+  background: #98d3db;
+  padding:20px;
+}
+.appdiv{
+ width:61%;
+ margin:auto;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ /* margin-top:20px; */
+ padding:20px;
+ margin-top: 20px;
+ border-radius:30px;
+background: white;
+}
+/* ::-webkit-scrollbar {
+  width: 5px;
+} */
+
+/* ::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  .App {
+    width:100%;
+    /* grid-template-rows: repeat(9, 140px); */
+  }
+ 
+}
+@media only screen and (min-width: 321px) and (max-width: 720px) {
+  .App {
+  width:720px
+  }
+  .sevenDatadiv{
+    width:720px;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 10px;
+    padding:5px;
+}
+}
+@media only screen and (min-width: 721px) and (max-width: 900px) {
+  .App {
+  width:100%;
+  }
+  .sevenDatadiv{
+  
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 10px;
+    padding:5px;
+}
+}
